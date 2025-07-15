@@ -56,7 +56,7 @@ Este projeto busca reforçar conceitos teóricos com uma visualização prática
 
 Neste vídeo, apresento o trabalho desenvolvido, abordando os principais pontos desenvolvidos ao longo do projeto.
 
-[Assista no Youtube]()
+[Assista no Youtube](https://www.youtube.com/watch?v=SyhoR898qls)
 
 ---
 
