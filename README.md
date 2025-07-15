@@ -1,4 +1,4 @@
-# 🔍 Projeto de Busca em Grafos - DFS e BFS
+# 🔍 Demonstrando Algoritmo Ambicioso - Coin Change
 
 **Conteúdo da Disciplina:**
 
@@ -20,16 +20,16 @@
 
 Este trabalho tem como objetivo implementar, de forma visual e interativa, a representação de algoritmo vista em sala.
 
-Este projeto busca reforçar conceitos teóricos de grafos com uma visualização prática e didática.
+Este projeto busca reforçar conceitos teóricos com uma visualização prática e didática.
 
 ---
 
 ## 🖼️ Screenshots
 
-<p align="center">Figura 1 - </p>
+<p align="center">Figura 1 - Valores Coins</p>
 
 <p align="center">
-  <img src="" alt="Nome" width="500"/>
+  <img src="PD_GC_Code/imgs/Moeda1.jpg" alt="Tutorial 1 - Coin Change" width="500"/>
 </p>
 
 <p align="center" style="font-size: 14px;">
@@ -39,10 +39,10 @@ Este projeto busca reforçar conceitos teóricos de grafos com uma visualizaçã
 
 ---
 
-<p align="center">Figura 2 - </p>
+<p align="center">Figura 2 - Resultado</p>
 
 <p align="center">
-  <img src="" alt="Nome" width="500"/>
+  <img src="PD_GC_Code/imgs/Moeda2.jpg" alt="Tutorial 2 - Coin Change" width="500"/>
 </p>
 
 <p align="center" style="font-size: 14px;">
@@ -86,8 +86,8 @@ cd PD_GC_Code
 3. **Compile o código (Windows ou Linux):**
 
 ```bash
-gcc main.c -o Nome
-./Nome
+gcc main.c -o programa
+./programa
 ```
 
 
@@ -97,9 +97,31 @@ gcc main.c -o Nome
 
 Após executar o programa, siga os seguintes passos:
 
+- Digite a quantidade de moedas que deseja.
+
+- Insira os valores das moedas uma por uma.
+
+- Informe o valor que deseja pagar.
+
+O programa irá:
+
+- Mostrar como preenche a tabela passo a passo.
+
+- Exibir o número mínimo de moedas necessárias.
+
+- Informar quais moedas foram utilizadas na combinação final (se houver solução).
+
 ---
 
 ## 🧠 Outros
 
+- Coin Change resolve o menor número de moedas necessário para formar um valor, usando subproblemas já resolvidos para construir a resposta final.
 
+- Knapsack (Mochila 0/1) seleciona itens com pesos e valores para maximizar o valor total sem ultrapassar a capacidade da mochila, testando cada combinação possível de forma otimizada.
+
+- Bellman-Ford encontra os menores caminhos em grafos com arestas negativas, atualizando as distâncias várias vezes com base nos vizinhos, até atingir a solução ideal.
+
+- Weighted Interval Scheduling seleciona tarefas com tempos e pesos diferentes, maximizando o valor total sem sobreposição, a partir de escolhas binárias entre incluir ou não cada tarefa.
+
+- Sequence Alignment compara duas sequências (como DNA ou strings) minimizando diferenças e penalidades por desalinhamento, preenchendo uma matriz de forma dinâmica.
 
