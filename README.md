@@ -1,4 +1,4 @@
-# 🔍 Demonstrando Algoritmo Ambicioso - Coin Change
+# 🔍 Demonstrando Programação Dinâmica - Coin Change
 
 **Conteúdo da Disciplina:**
 
